@@ -43,7 +43,7 @@ header section:nth-child(2) ul li a:hover{
     color: #555;
     cursor: pointer;
 }
-/*end of header styles*/
+/*end of the header styles*/
 
 /*quick preview styles*/
 #preview{
@@ -142,7 +142,7 @@ header section:nth-child(2) ul li a:hover{
     text-align: center;
     font-size: 30px;
 }
-/*end of technologies section*/
+/*end of the technologies section*/
 
 /*quote section*/
 #quote{
@@ -160,7 +160,7 @@ header section:nth-child(2) ul li a:hover{
     align-self:flex-end;
     margin-right: 0;
 }
-/*end of quote section*/
+/*end of the quote section*/
 
 /*callback section*/
 #callback{
@@ -212,4 +212,13 @@ header section:nth-child(2) ul li a:hover{
     background-color: white;
     cursor: pointer;
 }
-/*end of callback section*/
+/*end of the callback section*/
+
+/*footer section*/
+footer{
+    background-color: #002E94;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/*end of footer section*/
