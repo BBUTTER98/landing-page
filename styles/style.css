@@ -52,7 +52,7 @@ header section:nth-child(2) ul li a:hover{
 #preview section{
     flex: 1;
     padding: 75px 130px 100px 130px;
-    height: 400px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,7 +65,7 @@ header section:nth-child(2) ul li a:hover{
     font-size: 22px;
 }
 #preview section img{
-    width: 100%;
+    height: 350px;
 }
 #preview section button{
     width: 31%;
@@ -74,11 +74,66 @@ header section:nth-child(2) ul li a:hover{
     color: white;
     font-weight: 700;
     background-color: #083AA9;
-    border-color: #083AA9;
+    border: 1px solid #083AA9;
     transition: all ease-in-out 0.2s;
 }
 #preview section button:hover{
     background-color: white;
-    color:  #083AA9;
+    color:#083AA9;
+    cursor: pointer;
 }
 /*end of quick preview styles*/
+
+/* technologies section */
+#technologies{
+    background: #FFE7CC;
+    padding-bottom: 30px;
+}
+#technologies *{
+    background: #FFE7CC;
+}
+#technologies section h1 {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 48px;
+}
+#technologies .items {
+    display: flex;
+    padding: 0 100px;
+    justify-content:center;
+}
+#technologies .items .item{
+    flex: 1;
+}
+#technologies .items .item .image{
+    width: 200px;
+    height: 200px;
+    border: 10px solid #E1CEB5;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+#technologies .items .item .image img{
+    width: 200px;
+    height: 200px;
+}
+#technologies .items .item:nth-child(2) .image img{
+    width: 142px;
+    height: 142px;
+}
+#technologies .items .item:nth-child(3) .image img{
+    width: 142px;
+    height: 142px;
+}
+#technologies .items .item:nth-child(4) .image img{
+    width: 150px;
+    height: 95px;
+}
+#technologies .items .item h3{
+    text-align: center;
+    font-size: 30px;
+}
+
