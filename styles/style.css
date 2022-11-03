@@ -51,11 +51,16 @@ header section:nth-child(2) ul li a:hover{
 }
 #preview section{
     flex: 1;
-    padding: 75px 130px 100px 130px;
     height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+#preview section:first-child{
+    padding: 75px 75px 100px 130px;
+}
+#preview section:nth-child(2){
+    padding: 75px 130px 100px 75px;
 }
 #preview section h3{
     font-size: 30px;
@@ -68,9 +73,10 @@ header section:nth-child(2) ul li a:hover{
     height: 350px;
 }
 #preview section button{
-    width: 31%;
-    height: 11%;
+    width: 50%;
+    height: 15%;
     border-radius: 12px;
+    font-size: 20px;
     color: white;
     font-weight: 700;
     background-color: #083AA9;
@@ -154,4 +160,56 @@ header section:nth-child(2) ul li a:hover{
     align-self:flex-end;
     margin-right: 0;
 }
+/*end of quote section*/
 
+/*callback section*/
+#callback{
+    background-color: white;
+    padding: 100px 100px;
+}
+#callback section{
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    background-color: #083AA9;
+    border: 1px solid #083AA9;
+    border-radius: 30px;
+}
+#callback section .text{
+    flex: 3;
+    flex-direction: column;
+}
+#callback section .text *{
+    padding-left: 50px;
+}
+#callback section .text h2{
+    margin-bottom: 2px;
+    font-size: 32px;
+}
+#callback section .text p{
+    font-size: 20px;
+}
+#callback section .button{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+#callback section .button a button{
+    width: 170px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 12px;
+    color: white;
+    font-weight: 700;
+    background-color: #083AA9;
+    border: 1px solid white;
+    transition: all ease-in-out 0.2s;
+}
+#callback section .button a button:hover{
+    color: #083AA9;
+    background-color: white;
+    cursor: pointer;
+}
+/*end of callback section*/
