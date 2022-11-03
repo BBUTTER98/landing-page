@@ -43,3 +43,42 @@ header section:nth-child(2) ul li a:hover{
     color: #555;
     cursor: pointer;
 }
+/*end of header styles*/
+
+/*quick preview styles*/
+#preview{
+    display: flex;
+}
+#preview section{
+    flex: 1;
+    padding: 75px 130px 100px 130px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#preview section h3{
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+#preview section p{
+    font-size: 22px;
+}
+#preview section img{
+    width: 100%;
+}
+#preview section button{
+    width: 31%;
+    height: 11%;
+    border-radius: 12px;
+    color: white;
+    font-weight: 700;
+    background-color: #083AA9;
+    border-color: #083AA9;
+    transition: all ease-in-out 0.2s;
+}
+#preview section button:hover{
+    background-color: white;
+    color:  #083AA9;
+}
+/*end of quick preview styles*/
